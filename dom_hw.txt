@@ -1,0 +1,7 @@
+Flipkart Shipping Calculator
+
+algo
+
+1. get the text in the text box
+2. if amount<3200 then add 80 rs shipping charges
+3. display total amoubnt after shipping charges on the web page

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-5 : Project 1</title>
+  </head>
+  <body>
+    <p>YouTube Subscribe Button</p>
+    <button
+      onclick="subscribe();"
+      class="js-sub-btn"
+    >
+      Subscribe
+    </button>
+
+    <script>
+      function subscribe() {
+        let buttonElement = document.querySelector(".js-sub-btn");
+
+        if (buttonElement.innerText === "Subscribe") {
+          buttonElement.innerText = "Subscribed";
+        } else {
+          buttonElement.innerText = "Subscribe";
+        }
+      }
+    </script>
+  </body>
+</html>
+
+<!--
+
+
+    when we click the button
+
+    1. if the text is "subscribe" => "subscribed"
+
+    2. otherwise changes it back => "subscribe"
+
+-->
